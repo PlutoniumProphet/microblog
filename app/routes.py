@@ -1,5 +1,5 @@
 """This is the routing module for flask application"""
-from flask import flash, redirect, render_template
+from flask import flash, redirect, render_template, url_for
 from app import app
 from app.forms import LoginForm
 
@@ -38,5 +38,5 @@ def login():
     if form.validate_on_submit():
         flash('Login requested for user {}, remember_me={}'.format(
             form.username.data, form.remember_me.data))
-        return redirect('/index')
+        return redirect(url_for('index'))
     return render_template('login.html', title='Sign In', form=form)

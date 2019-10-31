@@ -20,7 +20,7 @@ msgstr ""
 
 #: app/__init__.py:22
 msgid "Please log in to access this page."
-msgstr "Bitte loggen Sie sich ein für den Zugriff auf diese Seite."
+msgstr "Bitte loggen Sie sich ein um Zugriff auf diese Seite zu erhalten."
 
 #: app/email.py:17
 msgid "[Microblog] Reset Your Password"

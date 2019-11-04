@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2019-11-02 15:42+0100\n"
+"POT-Creation-Date: 2019-11-04 19:30+0100\n"
 "PO-Revision-Date: 2019-11-02 13:39+0100\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language: de\n"
@@ -18,152 +18,139 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Generated-By: Babel 2.7.0\n"
 
-#: app/__init__.py:22
+#: app/__init__.py:18
 msgid "Please log in to access this page."
 msgstr "Bitte loggen Sie sich ein um Zugriff auf diese Seite zu erhalten."
-
-#: app/email.py:17
-msgid "[Microblog] Reset Your Password"
-msgstr "[Microblog] Passwort zurücksetzen"
-
-#: app/forms.py:11 app/forms.py:18 app/forms.py:38
-msgid "Username"
-msgstr "Benutzername"
-
-#: app/forms.py:12 app/forms.py:20 app/forms.py:66
-msgid "Password"
-msgstr "Passwort"
-
-#: app/forms.py:13
-msgid "Remember Me"
-msgstr "Zugangsdaten speichern"
-
-#: app/forms.py:14 app/routes.py:60 app/templates/login.html:5
-msgid "Sign In"
-msgstr "Anmelden."
-
-#: app/forms.py:19 app/forms.py:61
-msgid "Email"
-msgstr "E-Mail"
-
-#: app/forms.py:22 app/forms.py:68
-msgid "Repeat Password"
-msgstr "Passwort wiederholen"
-
-#: app/forms.py:24 app/routes.py:81 app/templates/register.html:5
-msgid "Register"
-msgstr "Jetzt registrieren"
-
-#: app/forms.py:29 app/forms.py:51
-msgid "Please use a different username."
-msgstr "Bitte benutzen Sie einen anderen Benutzername."
-
-#: app/forms.py:34
-msgid "Please use a different email address."
-msgstr "Bitte benutzen Sie eine andere E-Mail-Adresse."
-
-#: app/forms.py:39
-msgid "About me"
-msgstr "Über mich"
-
-#: app/forms.py:41
-msgid "Submit"
-msgstr "Senden"
-
-#: app/forms.py:62 app/forms.py:69
-msgid "Request Password Reset"
-msgstr "Neues Passwort anfordern"
-
-#: app/routes.py:31
-msgid "Your post is now live!"
-msgstr "Dein Beitrag ist jetzt online!"
-
-#: app/routes.py:40 app/templates/base.html:21
-msgid "Home"
-msgstr "Home"
-
-#: app/routes.py:53
-msgid "Invalid username or password"
-msgstr "Benutzername oder Passwort ungültig"
-
-#: app/routes.py:79
-msgid "Congratulations, you are now a registered user!"
-msgstr "Herzlichen Glückwunsch, Sie sind jetzt ein registrierter Benutzer!"
-
-#: app/routes.py:115
-msgid "Your changes have been saved."
-msgstr "Deine Änderungen wurden gespeichert."
-
-#: app/routes.py:120 app/templates/edit_profile.html:5
-msgid "Edit Profile"
-msgstr "Benutzerprofil bearbeiten"
-
-#: app/routes.py:129 app/routes.py:145
-#, python-format
-msgid "User %(username)s not found."
-msgstr "Benutzer %(username)s wurde nicht gefunden."
-
-#: app/routes.py:132
-msgid "You cannot follow yourself!"
-msgstr "Du kannst dir nicht selber folgen!"
-
-#: app/routes.py:136
-#, python-format
-msgid "You are following %(username)s!"
-msgstr "Du folgst nun %(username)s!"
-
-#: app/routes.py:148
-msgid "You cannot unfollow yourself!"
-msgstr "Du kannst dir nicht selbst nicht mehr folgen."
-
-#: app/routes.py:152
-#, python-format
-msgid "You are not following %(username)s."
-msgstr "Du folgst %(username)s nicht."
-
-#: app/routes.py:166 app/templates/base.html:22
-msgid "Explore"
-msgstr "Erkunden"
-
-#: app/routes.py:180
-msgid "Check your email for the instructions to reset your password"
-msgstr ""
-"Sie erhalten eine E-Mail mit den Instruktionen zum Zurücksetzen des "
-"Passworts."
-
-#: app/routes.py:183 app/templates/reset_password_request.html:5
-msgid "Reset Password"
-msgstr "Passwort zurücksetzen"
-
-#: app/routes.py:197
-msgid "Your password has been reset."
-msgstr "Dein Passwort wurde zurückgesetzt."
 
 #: app/translate.py:10
 msgid "Error: the translation service is not configured."
 msgstr "Fehler: Der Übersetzungsdienst ist nicht konfiguriert."
 
-#: app/translate.py:17
+#: app/translate.py:18
 msgid "Error: the translation service failed."
 msgstr "Fehler: Der Übersetzungsdienst ist fehlgeschlagen."
 
-#: app/templates/404.html:4
-msgid "Not Found"
-msgstr "Seite nicht gefunden."
+#: app/auth/email.py:8
+msgid "[Microblog] Reset Your Password"
+msgstr "[Microblog] Passwort zurücksetzen"
 
-#: app/templates/404.html:5 app/templates/500.html:6
-msgid "Back"
-msgstr "Zurück"
+#: app/auth/forms.py:9 app/auth/forms.py:16 app/main/forms.py:10
+msgid "Username"
+msgstr "Benutzername"
 
-#: app/templates/500.html:4
-msgid "An unexpected error has occurred"
-msgstr "Ein unerwarteter Fehler ist aufgetreten."
+#: app/auth/forms.py:10 app/auth/forms.py:18 app/auth/forms.py:41
+msgid "Password"
+msgstr "Passwort"
 
-#: app/templates/500.html:5
-msgid "The administrator has been notified. Sorry for the inconvenience!"
+#: app/auth/forms.py:11
+msgid "Remember Me"
+msgstr "Zugangsdaten speichern"
+
+#: app/auth/forms.py:12 app/auth/routes.py:28 app/templates/auth/login.html:5
+msgid "Sign In"
+msgstr "Anmelden."
+
+#: app/auth/forms.py:17 app/auth/forms.py:36
+msgid "Email"
+msgstr "E-Mail"
+
+#: app/auth/forms.py:20 app/auth/forms.py:43
+msgid "Repeat Password"
+msgstr "Passwort wiederholen"
+
+#: app/auth/forms.py:22 app/auth/routes.py:49
+#: app/templates/auth/register.html:5
+msgid "Register"
+msgstr "Jetzt registrieren"
+
+#: app/auth/forms.py:27 app/main/forms.py:23
+msgid "Please use a different username."
+msgstr "Bitte benutzen Sie einen anderen Benutzername."
+
+#: app/auth/forms.py:32
+msgid "Please use a different email address."
+msgstr "Bitte benutzen Sie eine andere E-Mail-Adresse."
+
+#: app/auth/forms.py:37 app/auth/forms.py:45
+msgid "Request Password Reset"
+msgstr "Neues Passwort anfordern"
+
+#: app/auth/routes.py:21
+msgid "Invalid username or password"
+msgstr "Benutzername oder Passwort ungültig"
+
+#: app/auth/routes.py:47
+msgid "Congratulations, you are now a registered user!"
+msgstr "Herzlichen Glückwunsch, Sie sind jetzt ein registrierter Benutzer!"
+
+#: app/auth/routes.py:63
+msgid "Check your email for the instructions to reset your password"
 msgstr ""
-"Der Administrator wurde benachrichtigt. Entschuldigen Sie die "
-"Unannehmlichkeiten!"
+"Sie erhalten eine E-Mail mit den Instruktionen zum Zurücksetzen des "
+"Passworts."
+
+#: app/auth/routes.py:66 app/templates/auth/reset_password_request.html:5
+msgid "Reset Password"
+msgstr "Passwort zurücksetzen"
+
+#: app/auth/routes.py:80
+msgid "Your password has been reset."
+msgstr "Dein Passwort wurde zurückgesetzt."
+
+#: app/main/forms.py:11
+msgid "About me"
+msgstr "Über mich"
+
+#: app/main/forms.py:13 app/main/forms.py:28
+msgid "Submit"
+msgstr "Senden"
+
+#: app/main/forms.py:27
+msgid "Say something"
+msgstr ""
+
+#: app/main/routes.py:35
+msgid "Your post is now live!"
+msgstr "Dein Beitrag ist jetzt online!"
+
+#: app/main/routes.py:44 app/templates/base.html:21
+msgid "Home"
+msgstr "Home"
+
+#: app/main/routes.py:59 app/templates/base.html:22
+msgid "Explore"
+msgstr "Erkunden"
+
+#: app/main/routes.py:87
+msgid "Your changes have been saved."
+msgstr "Deine Änderungen wurden gespeichert."
+
+#: app/main/routes.py:92 app/templates/edit_profile.html:5
+msgid "Edit Profile"
+msgstr "Benutzerprofil bearbeiten"
+
+#: app/main/routes.py:101 app/main/routes.py:117
+#, python-format
+msgid "User %(username)s not found."
+msgstr "Benutzer %(username)s wurde nicht gefunden."
+
+#: app/main/routes.py:104
+msgid "You cannot follow yourself!"
+msgstr "Du kannst dir nicht selber folgen!"
+
+#: app/main/routes.py:108
+#, python-format
+msgid "You are following %(username)s!"
+msgstr "Du folgst nun %(username)s!"
+
+#: app/main/routes.py:120
+msgid "You cannot unfollow yourself!"
+msgstr "Du kannst dir nicht selbst nicht mehr folgen."
+
+#: app/main/routes.py:124
+#, python-format
+msgid "You are not following %(username)s."
+msgstr "Du folgst %(username)s nicht."
 
 #: app/templates/_post.html:14
 #, python-format
@@ -190,7 +177,7 @@ msgstr "Benutzerprofil"
 msgid "Logout"
 msgstr "Abmelden"
 
-#: app/templates/base.html:67
+#: app/templates/base.html:66
 msgid "Error: Could not contact server."
 msgstr ""
 
@@ -199,61 +186,79 @@ msgstr ""
 msgid "Hi, %(username)s!"
 msgstr "Hallo %(username)s!"
 
-#: app/templates/index.html:17 app/templates/user.html:30
+#: app/templates/index.html:17 app/templates/user.html:31
 msgid "Newer posts"
 msgstr "Neuere Beiträge"
 
-#: app/templates/index.html:22 app/templates/user.html:35
+#: app/templates/index.html:22 app/templates/user.html:36
 msgid "Older posts"
 msgstr "Ältere Beiträge"
-
-#: app/templates/login.html:12
-msgid "New User?"
-msgstr "Neuer Benutzer?"
-
-#: app/templates/login.html:12
-msgid "Click to Register!"
-msgstr "Klicken Sie hier, um sich zu registrieren!"
-
-#: app/templates/login.html:14
-msgid "Forgot Your Password?"
-msgstr "Passwort vergessen?"
-
-#: app/templates/login.html:15
-msgid "Click to Reset It"
-msgstr "Klicken Sie hier, um das Passwort zurückzusetzen."
-
-#: app/templates/reset_password.html:5
-msgid "Reset Your Password"
-msgstr "Passwort zurücksetzen"
 
 #: app/templates/user.html:8
 msgid "User"
 msgstr "Benutzer"
 
-#: app/templates/user.html:10
+#: app/templates/user.html:11
 msgid "Last seen on"
 msgstr "Zuletzt gesehen am"
 
-#: app/templates/user.html:12
+#: app/templates/user.html:13
 #, python-format
 msgid "%(count)d followers"
 msgstr "%(count)d Followers"
 
-#: app/templates/user.html:12
+#: app/templates/user.html:13
 #, python-format
 msgid "%(count)d following"
 msgstr "%(count)d folgen dir."
 
-#: app/templates/user.html:14
+#: app/templates/user.html:15
 msgid "Edit your profile"
 msgstr "Bearbeite dein Benutzerprofil"
 
-#: app/templates/user.html:16
+#: app/templates/user.html:17
 msgid "Follow"
 msgstr "Folgen"
 
-#: app/templates/user.html:18
+#: app/templates/user.html:19
 msgid "Unfollow"
 msgstr "Nicht mehr folgen"
+
+#: app/templates/auth/login.html:12
+msgid "New User?"
+msgstr "Neuer Benutzer?"
+
+#: app/templates/auth/login.html:12
+msgid "Click to Register!"
+msgstr "Klicken Sie hier, um sich zu registrieren!"
+
+#: app/templates/auth/login.html:14
+msgid "Forgot Your Password?"
+msgstr "Passwort vergessen?"
+
+#: app/templates/auth/login.html:15
+msgid "Click to Reset It"
+msgstr "Klicken Sie hier, um das Passwort zurückzusetzen."
+
+#: app/templates/auth/reset_password.html:5
+msgid "Reset Your Password"
+msgstr "Passwort zurücksetzen"
+
+#: app/templates/errors/404.html:4
+msgid "Not Found"
+msgstr "Seite nicht gefunden."
+
+#: app/templates/errors/404.html:5 app/templates/errors/500.html:6
+msgid "Back"
+msgstr "Zurück"
+
+#: app/templates/errors/500.html:4
+msgid "An unexpected error has occurred"
+msgstr "Ein unerwarteter Fehler ist aufgetreten."
+
+#: app/templates/errors/500.html:5
+msgid "The administrator has been notified. Sorry for the inconvenience!"
+msgstr ""
+"Der Administrator wurde benachrichtigt. Entschuldigen Sie die "
+"Unannehmlichkeiten!"
 

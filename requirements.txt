@@ -15,7 +15,6 @@ Flask-Migrate==2.5.2
 Flask-Moment==0.9.0
 Flask-SQLAlchemy==2.4.1
 Flask-WTF==0.14.2
-<<<<<<< HEAD
 guess-language-spirit==0.5.3
 idna==2.8
 itsdangerous==1.1.0
@@ -34,23 +33,3 @@ urllib3==1.25.6
 visitor==0.1.3
 Werkzeug==0.16.0
 WTForms==2.2.1
-=======
-guess_language-spirit==0.5.3
-idna==2.6
-itsdangerous==0.24
-Jinja2==2.10
-Mako==1.0.7
-MarkupSafe==1.0
-PyJWT==1.5.3
-python-dateutil==2.6.1
-python-dotenv==0.7.1
-python-editor==1.0.3
-pytz==2017.2
-requests==2.20.0
-six==1.11.0
-SQLAlchemy==1.1.14
-urllib3==1.24.2
-visitor==0.1.3
-Werkzeug==0.15.3
-WTForms==2.1
->>>>>>> dca8b9dba50e42a60adeaa5b08f47ba53e3f59f8
